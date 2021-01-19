@@ -1,25 +1,43 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
 }
 
 a:link {
   text-decoration: none;
+  color: #69696a;
 }
 a:visited {
   text-decoration: none;
+  color: #69696a;
 }
 a:hover {
   text-decoration: none;
+  color: #69696a;
 }
 a:active {
   text-decoration: none;
+  color: #69696a;
 }
 
 .roundbutton {
   width: 100%;
+  background-color: #000;
+  color: #fff;
+  border-radius: 15px;
+  border: 0;
+  padding: 10px;
 }
 
 ul {
   list-style: none;
   padding-left: 0;
+}
+
+.content {
+  display: inline-block;
+  border-left: 3px solid #69696a;
+  margin-left: 5px;
+  padding-left: 10px;
+  color: #69696a;
 }
