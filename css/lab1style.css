@@ -1,6 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f9fafc;
+  height: calc(100vh - 70px);
 }
 
 a:link {
@@ -51,4 +56,86 @@ ul li {
 h2 {
   font-size: 1em;
   margin: 2px;
+}
+
+h1 {
+  margin: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    justify-content: space-between;
+    height: 70px;
+  }
+
+  .flex_center {
+    display: flex;
+    align-items: center;
+  }
+
+  li {
+    margin-right: 20px;
+    width: max-content;
+  }
+
+  nav {
+    margin: 10px;
+  }
+
+  .roundbutton {
+    margin-top: 0;
+  }
+
+  .bottom {
+    width: fit-content;
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+  }
+
+  main {
+    max-width: 50%;
+    position: relative;
+    top: 15%;
+    float: left;
+  }
+
+  .circle {
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  .circles {
+    position: relative;
+    top: 10%;
+    right: 5%;
+    width: 50%;
+    float: right;
+  }
+
+  .blue {
+    background-color: rgba(207, 130, 213, 0.6);
+    right: 20px;
+    top: 40px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .red {
+    background-color: rgba(247, 136, 167, 0.6);
+    right: 110px;
+    top: 0;
+    height: 240px;
+    width: 240px;
+  }
+
+  .yellow {
+    background-color: rgba(247, 193, 162, 0.7);
+    top: 130px;
+    right: 30px;
+    height: 180px;
+    width: 180px;
+  }
 }
